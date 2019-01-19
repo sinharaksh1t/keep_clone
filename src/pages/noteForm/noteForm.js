@@ -54,7 +54,7 @@ export default class NoteForm extends Component {
     render() {
         return (
             <form>
-                <button onClick={this.props.hideForm} type="submit" className="cross"><h4>&otimes;</h4></button>
+                <button onClick={this.props.hideForm} className="cross"><h4>&otimes;</h4></button>
                 <div className="form-group fcontrol">
                     <label htmlFor="exampleFormControlInput1">Title</label>
                     <input value={this.state.newNoteTitle} onChange={this.handleChange} name="newNoteTitle" className="form-control" id="exampleFormControlInput1" placeholder="title"/>
