@@ -5,7 +5,6 @@ import Note from '../note/note';
 import NoteForm from '../noteForm/noteForm';
 import SearchInput, {createFilter} from 'react-search-input';
 import './home.css';
-import { Button } from '@blueprintjs/core';
 
 const KEYS_TO_FILTERS = ['noteData', 'noteList', 'noteTitle'];
 export default class Home extends Component {
